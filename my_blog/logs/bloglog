@@ -1,0 +1,1017 @@
+2023-11-07 14:33:57,509 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-11-07 14:33:57,813 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:33:57,844 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:34:20,751 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:34:20,772 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:34:21,239 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:34:21,259 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:34:21,406 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:34:21,427 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:34:21,554 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:34:21,574 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:34:21,693 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:34:21,712 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:34:49,596 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:34:49,615 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:34:50,009 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:34:50,030 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:34:50,170 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:34:50,189 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:34:50,314 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:34:50,335 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:34:50,450 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:34:50,470 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:35:07,112 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:35:07,132 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:35:07,476 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:35:07,496 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:35:07,614 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:35:07,634 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:35:07,739 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:35:07,758 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:35:23,080 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:35:23,100 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:35:23,547 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:35:23,567 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:35:23,700 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:35:23,719 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:35:23,841 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:35:23,861 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:36:36,951 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:36:36,973 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:38:40,235 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:38:40,258 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:39:07,413 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:39:07,822 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:39:07,846 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:39:23,986 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:39:24,366 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:39:24,389 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:39:52,489 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:39:53,047 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 14:39:53,069 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:53:54,406 [ERROR] django.request: Internal Server Error: /ko/accounts/change_password/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\accounts\views.py", line 47, in post
+    return redirect('change_password_done')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'change_password_done' not found. 'change_password_done' is not a valid view function or pattern name.
+2023-11-07 14:53:54,427 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:56:17,584 [INFO] django.utils.autoreload: C:\Users\tt\Desktop\my_blog\accounts\views.py changed, reloading.
+2023-11-07 14:56:18,061 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-11-07 14:56:33,025 [ERROR] django.request: Internal Server Error: /ko/accounts/change_password/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\accounts\views.py", line 47, in post
+    return redirect(request, 'accounts/login.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '<WSGIRequest: POST '/ko/accounts/change_password/'>' not found. '<WSGIRequest: POST '/ko/accounts/change_password/'>' is not a valid view function or pattern name.
+2023-11-07 14:56:33,049 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 14:58:41,185 [ERROR] django.request: Internal Server Error: /ko/accounts/delete/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\contrib\auth\mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\edit.py", line 278, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\edit.py", line 283, in form_valid
+    success_url = self.get_success_url()
+                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\edit.py", line 237, in get_success_url
+    if self.success_url:
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\utils\functional.py", line 149, in __wrapper__
+    res = func(*self.__args, **self.__kw)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'main/index' not found. 'main/index' is not a valid view function or pattern name.
+2023-11-07 14:58:41,208 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 15:00:05,623 [INFO] django.utils.autoreload: C:\Users\tt\Desktop\my_blog\blogbase\settings.py changed, reloading.
+2023-11-07 15:46:53,680 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-11-07 15:46:56,562 [ERROR] django.request: Internal Server Error: /ko/blog/1/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 15:47:05,093 [ERROR] django.request: Internal Server Error: /ko/blog/17/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 15:47:05,119 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 15:57:06,465 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-11-07 16:07:38,527 [WARNING] django.request: Not Found: /static/css/styles.css
+2023-11-07 16:07:38,528 [WARNING] django.request: Not Found: /static/assets/home-bg.jpg
+2023-11-07 16:07:38,530 [WARNING] django.request: Not Found: /static/js/scripts.js
+2023-11-07 16:07:39,446 [WARNING] django.request: Not Found: /static/css/styles.css
+2023-11-07 16:07:39,468 [WARNING] django.request: Not Found: /static/assets/favicon.ico
+2023-11-07 16:07:42,489 [WARNING] django.request: Not Found: /static/css/styles.css
+2023-11-07 16:07:42,489 [WARNING] django.request: Not Found: /static/js/scripts.js
+2023-11-07 16:08:00,483 [INFO] django.utils.autoreload: C:\Users\tt\Desktop\my_blog\blogbase\settings.py changed, reloading.
+2023-11-07 16:31:14,685 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-11-07 16:31:49,115 [ERROR] django.request: Internal Server Error: /ko/blog/19/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\blog\views.py", line 59, in get_object
+    post = Post.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+blog.models.Post.DoesNotExist: Post matching query does not exist.
+2023-11-07 16:31:49,140 [WARNING] django.request: Not Found: /static/assets/error.jpg
+2023-11-07 16:32:46,198 [WARNING] django.request: Not Found: /media/blog/images/2023/11/07/sample.jpg
+2023-11-07 16:32:46,206 [WARNING] django.request: Not Found: /media/blog/files/2023/11/07/sample.mp4
+2023-11-07 16:43:34,010 [WARNING] django.request: Not Found: /static/css/styles.css
+2023-11-07 16:43:34,011 [WARNING] django.request: Not Found: /static/assets/home-bg.jpg
+2023-11-07 16:43:34,012 [WARNING] django.request: Not Found: /static/js/scripts.js
+2023-11-07 16:43:34,768 [WARNING] django.request: Not Found: /static/css/styles.css
+2023-11-07 16:43:37,805 [WARNING] django.request: Not Found: /static/css/styles.css
+2023-11-07 16:43:37,806 [WARNING] django.request: Not Found: /static/js/scripts.js
+2023-11-07 16:43:51,248 [INFO] django.utils.autoreload: C:\Users\tt\Desktop\my_blog\blogbase\settings.py changed, reloading.
+2023-11-08 11:33:45,847 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-11-08 11:37:42,749 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-11-08 11:41:49,439 [ERROR] django.request: Internal Server Error: /ko/blog/2/
+Traceback (most recent call last):
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tt\Desktop\my_blog\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'replyForm' not found. 'replyForm' is not a valid view function or pattern name.
+2023-11-08 11:41:49,595 [WARNING] django.request: Not Found: /favicon.ico
